@@ -27,8 +27,6 @@ public class Transito {
 
             ManusearEmergencia(filaPouso1);
             ManusearEmergencia(filaPouso2);
-            ManusearEmergencia(filaDecolagem1);
-            ManusearEmergencia(filaDecolagem2);
             
             filaSelecionada1 = EscolherPista(filaPouso1, filaDecolagem1);
             filaSelecionada2 = EscolherPista(filaPouso2, filaDecolagem2);
