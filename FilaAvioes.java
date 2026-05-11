@@ -82,9 +82,9 @@ public class FilaAvioes {
             Aviao aviao = aux.getDado();
             if (!aviao.isDecolagem()){            
                 aviao.diminuirCombustivel(); 
-                Transito.totalTempoEsperaDecolagem ++;
-            } else { 
                 Transito.totalTempoEsperaPouso ++;
+            } else { 
+                Transito.totalTempoEsperaDecolagem ++;
             }
 
             aviao.aumentarTempoEspera();
