@@ -19,7 +19,7 @@ public class AviaoGenerator {
         aviao.setId(idCounterPouso);
         idCounterPouso += 2; 
         aviao.setDecolagem(false);
-        aviao.setCombustivel((int) (Math.random() * 10) + 1); 
+        aviao.setCombustivel((int) (Math.random() * 20) + 1); 
         aviao.setTempoEspera(0);
         return aviao;
     }
